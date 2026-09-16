@@ -1,0 +1,18 @@
+CONTENT BUILDER V1 · TUTORIAL MAESTRO
+====================================
+
+1. Seleccionar workflow.
+2. Seleccionar tipo de contenido.
+3. Seleccionar BETA/ALFA.
+4. Para video, seleccionar edit profile.
+5. Cargar transcript/plan según caso.
+6. Cargar Project Config.
+7. Cargar Brand Adapter.
+8. Cargar ficha previa cuando se actualiza.
+9. Revisar XR rule/density.
+10. Build AI Package.
+11. Abrir 01_QUE_SUBIR_A_CHATGPT.txt del package.
+12. Subir archivos.
+13. Obtener JSON + TXT.
+14. Validar JSON con VALIDAR_R6.py.
+15. Importar JSON a Geometra.

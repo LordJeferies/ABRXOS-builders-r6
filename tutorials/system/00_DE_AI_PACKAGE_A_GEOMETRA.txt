@@ -1,0 +1,13 @@
+TUTORIAL · AI PACKAGE → IA → GEOMETRA
+=====================================
+
+1. Generar package en Builder.
+2. Abrir 01_QUE_SUBIR_A_CHATGPT.txt.
+3. Adjuntar archivos en el orden indicado.
+4. Pedir JSON + TXT.
+5. Guardar JSON sin modificar estructura.
+6. Ejecutar: python3 tools/VALIDAR_R6.py salida.json
+7. Resolver criticals.
+8. Geometra → Importar información.
+9. Confirmar ID, stage, workflow y schedule.
+10. Crear Lienzo cuando la pieza esté lista para producción.

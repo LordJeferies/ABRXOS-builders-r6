@@ -1,0 +1,33 @@
+ABRXOS X · BRAND BUILDER V1 · CONTRATO DE EXPORTACIÓN
+====================================================
+
+NOMBRE
+<BRAND>_BRAND_AI_PACKAGE_R6/
+
+ARCHIVOS
+00_START_HERE.txt
+01_QUE_SUBIR_A_CHATGPT.txt
+02_PROMPT_FINAL.txt
+03_RAW_BRAND_CONTEXT.txt
+04_BRAND_FORM.json
+05_BRANDING_METHOD_INPUT.json
+06_BRAND_ADAPTER_TEMPLATE_R6.json
+07_EXPECTED_OUTPUT_SCHEMA.json
+08_SOURCE_REFERENCES.json
+09_BRAND_DRAFT.json
+10_BRANDING_METHOD_REGISTRY.json
+11_BRANDING_METHOD_SOURCE_NOTE.txt
+REFERENCES/* cuando existan
+package_manifest.json
+
+SALIDA IA ESPERADA
+BRAND_STRATEGY_R6.json
+BRAND_STRATEGY_R6.txt
+BRAND_ADAPTER_R6.json
+BRAND_ADAPTER_R6.txt
+
+REGLA
+Strategy y Adapter no deben fusionarse en un solo objeto ambiguo.
+
+MANIFEST
+Debe registrar builder, builderVersion, canonVersion, brandId, brandName, createdAt y hash de cada archivo.

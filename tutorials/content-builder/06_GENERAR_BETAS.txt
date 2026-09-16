@@ -1,0 +1,9 @@
+CASO · TRANSCRIPCIÓN → BETAS PARA SELECCIÓN
+===========================================
+
+1. stage=BETA.
+2. quantity/max y tipos.
+3. generar potenciales sin desarrollar todos los assets.
+4. importar Betas a Geometra.
+5. seleccionar las mejores.
+6. evolucionar sólo seleccionadas con case 07.

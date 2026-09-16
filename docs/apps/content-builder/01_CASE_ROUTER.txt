@@ -1,0 +1,47 @@
+ABRXOS CONTENT BUILDER V1 · ROUTER DE CASOS
+===========================================
+
+CASE 01 · PLAN FIJO + TRANSCRIPCIÓN → ALFA
+workflowMode=fixed_plan y timing resoluble.
+
+CASE 02 · SÓLO TRANSCRIPCIÓN → INTRO ALFA
+contentType=intro, ALFA, sin otro caso prioritario.
+
+CASE 03 · SÓLO TRANSCRIPCIÓN → VERTICAL ALFA
+contentType=vertical.
+
+CASE 04 · SÓLO TRANSCRIPCIÓN → HORIZONTAL ALFA
+contentType=horizontal.
+
+CASE 05 · TRANSCRIPCIÓN → ESTÁTICO ALFA
+carousel usa prompt específico; quote/thread/note/pdf/script usan prompt estático genérico.
+
+CASE 06 · TRANSCRIPCIÓN → BETAS
+stage=BETA.
+
+CASE 07 · BETA SELECCIONADA → ALFA
+workflowMode=beta_to_alpha.
+
+CASE 08 · ACTUALIZAR ALFA
+workflowMode=update_alpha.
+
+CASE 09 · DYNAMIC EDIT SIN XR
+editProfile=MOTION_SFX sobre contenido audiovisual.
+
+CASE 10 · CLEAN EDIT
+editProfile=SFX_ONLY sobre contenido audiovisual.
+
+CASE 11 · EPISODIO COMPLETO
+workflowMode=full_episode o contentType=full_episode.
+
+CASE 12 · MULTI SOURCE
+workflowMode=multi_source.
+
+CASE 13 · PLAN FIJO SIN TIMING VERIFICABLE
+fixed_plan + timingQuality no_timing/unresolved. Produce needs_review, no Cutter-ready.
+
+CASE 14 · TODO EL PROYECTO
+workflowMode=all_project.
+
+PRIORIDAD DEL ROUTER
+Casos explícitos de workflow ganan sobre contentType. Stage BETA gana antes de perfiles. Perfiles Dynamic/Clean ganan sobre los prompts Alfa estándar de video.

@@ -1,0 +1,31 @@
+ABRXOS X · BRAND BUILDER V1 · COMPONENTES
+=========================================
+
+1. BRAND LIBRARY
+Lista de marcas guardadas. Muestra ID, nombre, updatedAt y completion.
+
+2. OVERVIEW
+Resumen de identidad, progreso y estado del proyecto de marca.
+
+3. RAW CONTEXT
+Caja libre. Acepta texto largo, desordenado y no estructurado. Se conserva literalmente.
+
+4. BRAND FORM
+Información general estructurada: descripción, audiencia, sector, objetivos, voz, visuales y demás campos operativos.
+
+5. BRANDING METHOD
+Modo resumido por 5 Drivers. Permite expandir las 25 tools cuando se necesita profundidad.
+No replica el libro: almacena respuestas y un registry estructural.
+
+6. BRAND ADAPTER R6
+Edición visual de voz, narrativa, visual, perfiles de edición, XR, Motion, CINE, SFX, Music, Captions, covers, claims y asset policy.
+Incluye JSON avanzado para preservar campos no expuestos todavía por la UI.
+
+7. REFERENCES
+Carga referencias locales. El servidor guarda copia bajo la marca y registra hash.
+
+8. QA / EXPORT
+Valida presencia mínima y crea la carpeta/ZIP para IA.
+
+9. STANDALONE HTML
+Usa localStorage. Puede editar y descargar artefactos ligeros, pero no puede escribir libremente carpetas del sistema ni generar el mismo bundle completo que el servidor local.

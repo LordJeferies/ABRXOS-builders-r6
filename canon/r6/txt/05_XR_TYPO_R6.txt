@@ -1,0 +1,29 @@
+XR R6 · TYPO
+=============
+
+FUNCIÓN
+Crear pausa o énfasis tipográfico con fondo plano/simple/brand/dark.
+
+ESTADOS
+T01 frase normal.
+T02 hero phrase de 1–5 palabras.
+T03 frase normal de salida/resolución.
+
+DURACIÓN TOTAL
+6–12 s.
+
+ASSETS RASTER
+0 por defecto. Texto debe ser editable.
+
+BUENO
+La segunda unidad contiene la palabra/frase emocionalmente dominante y las tres partes mantienen sintaxis/ritmo comprensible.
+
+MALO
+- partir por cantidad exacta de palabras;
+- poner 12 palabras como hero phrase;
+- usar tres tipografías distintas;
+- llenar el fondo con objetos innecesarios;
+- confundir TYPO con captions normales.
+
+CAPTION POLICY
+HIDE_OR_MERGE_WITH_TYPO para evitar duplicación.

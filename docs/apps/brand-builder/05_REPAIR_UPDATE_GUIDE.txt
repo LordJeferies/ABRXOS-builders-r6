@@ -1,0 +1,28 @@
+ABRXOS X · BRAND BUILDER V1 · REPARAR Y ACTUALIZAR
+==================================================
+
+ARCHIVOS CLAVE
+app.py            servidor HTTP local / endpoints.
+brand_engine.py   store, completion, package compiler, hashes, ZIP.
+web/index.html    interfaz principal.
+resources/        adapter template + Branding Method registry + source note.
+tests/            contratos de regresión.
+
+SI FALLA LA UI
+1. abrir ABRXOS_X_BRAND_BUILDER_V1.html directamente;
+2. ejecutar `python3 app.py --no-open` y abrir la URL mostrada;
+3. revisar ~/Library/Logs/abrxos_x_brand_builder_v1.log;
+4. comprobar sintaxis JS y consola del navegador.
+
+SI FALLA EXPORT
+1. comprobar permisos en ~/ABRXOS_BRAND_BUILDER_EXPORTS;
+2. verificar resources/brand_adapter_template.json;
+3. verificar branding_method_registry.json;
+4. ejecutar tests de engine/server;
+5. no borrar datos de ~/ABRXOS_BRAND_BUILDER_DATA como reparación automática.
+
+PARA CAMBIAR BRAND ADAPTER
+Editar primero el template canónico y tests. Después adaptar UI. Nunca modificar sólo la UI dejando el contrato atrás.
+
+PARA CAMBIAR BRANDING METHOD
+Actualizar registry estructural, source note y tests. No incrustar el libro completo.

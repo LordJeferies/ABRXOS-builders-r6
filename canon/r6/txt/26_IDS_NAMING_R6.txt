@@ -1,0 +1,29 @@
+ABRXOS R6 · IDs Y NAMING
+========================
+
+PIEZAS
+INTRO_01
+V01
+H01
+C01
+Q01
+TH01
+N01
+PDF01
+SC01
+
+HIJOS
+<content>_P01
+<content>_XR01
+<content>_XR01_A01
+<content>_M01
+<content>_SFX01
+<content>_CAP_G01
+<content>_CINE01
+
+REGLAS
+- ID es identidad, no título.
+- No agregar _FINAL/_NEW/_MEJORADO.
+- Actualización conserva canonicalId.
+- Duplicación intencional crea ID nuevo y registra origen.
+- Asset linked conserva assetId si cambia prompt/descripción.

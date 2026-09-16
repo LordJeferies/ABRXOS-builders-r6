@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "abrxos.project-config.r6",
+  "projectId": "JOC55_AMANDA",
+  "projectName": "JOC Podcast 55 · Amanda Vicari",
+  "brandId": "JOC",
+  "language": "es",
+  "timezone": "America/New_York",
+  "defaultStage": "ALFA",
+  "defaultEditProfile": {
+    "code": "XR_FULL",
+    "commercialName": "Cinematic Edit"
+  },
+  "sourceGroups": {
+    "DEFAULT": {
+      "label": "Amanda Vicari · episodio 55",
+      "masterAvailability": {
+        "vertical": true,
+        "horizontal": true
+      },
+      "allowedContentTypes": [
+        "intro",
+        "vertical",
+        "horizontal",
+        "carousel",
+        "quote",
+        "thread",
+        "note",
+        "pdf",
+        "script"
+      ],
+      "cutterRouting": {
+        "intro": [
+          "vertical",
+          "horizontal"
+        ],
+        "vertical": [
+          "vertical"
+        ],
+        "horizontal": [
+          "horizontal"
+        ]
+      }
+    }
+  },
+  "contentDefaults": {
+    "intros": 6,
+    "verticals": 20,
+    "horizontals": 4,
+    "carousels": 5,
+    "quotes": 0,
+    "threads": 0,
+    "notes": 0,
+    "pdfs": 0,
+    "scripts": 0
+  },
+  "xrDensity": {
+    "intro": {
+      "exact": 6
+    },
+    "vertical": {
+      "min": 2,
+      "max": 4
+    },
+    "horizontal": {
+      "approxPerSeconds": 120
+    },
+    "full_episode": {
+      "approxPerSeconds": 300
+    }
+  },
+  "editorialRules": {
+    "voiceoverOnlyIntros": true,
+    "onePieceEqualsOneFinalVideo": true,
+    "doNotInventTimestamps": true,
+    "preserveLiteralSource": true,
+    "avoidSameXrConsecutive": true,
+    "introXrExact": 6,
+    "verticalXrMin": 2,
+    "verticalXrMax": 4,
+    "captionsTargetWords": [
+      8,
+      15
+    ]
+  },
+  "calendar": {
+    "enabled": true,
+    "startDate": null,
+    "endDate": null,
+    "defaultPlatforms": []
+  },
+  "idRules": {
+    "introPrefix": "INTRO_",
+    "verticalPrefix": "V",
+    "horizontalPrefix": "H",
+    "carouselPrefix": "C",
+    "quotePrefix": "Q",
+    "threadPrefix": "TH",
+    "notePrefix": "N",
+    "pdfPrefix": "PDF",
+    "scriptPrefix": "SC"
+  },
+  "notes": []
+}

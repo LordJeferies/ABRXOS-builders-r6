@@ -1,0 +1,28 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+*.log
+*.partial
+*.tmp
+*.bak
+
+# User-generated local data / exports
+ABRXOS_BRAND_BUILDER_DATA/
+ABRXOS_BRAND_BUILDER_EXPORTS/
+ABRXOS_CONTENT_BUILDER_DATA/
+ABRXOS_CONTENT_BUILDER_EXPORTS/
+exports/
+dist/
+release/
+
+# Do not commit private client inputs by default
+private/
+client_data/
+masters/
+transcripts_private/

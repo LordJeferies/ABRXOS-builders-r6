@@ -1,0 +1,9 @@
+CASO · PLAN FIJO SIN TIMESTAMPS → ALFA NEEDS_REVIEW
+===================================================
+
+1. fixed_plan + timingQuality=no_timing/unresolved.
+2. Builder usa case 13.
+3. IA puede desarrollar story, XR, assets, prompts, Motion, CINE, SFX, Music y Caption plan.
+4. timingVerified=false.
+5. CutterReady=false.
+6. al recibir transcript timecodeado, actualizar misma ficha, no crear otra.

@@ -1,0 +1,29 @@
+ABRXOS R6 · KANBAN + CALENDARIO
+===============================
+
+MADUREZ
+BETA / ALFA / OMEGA.
+
+WORKFLOW
+PENDIENTE
+REVISADO
+HACIENDO
+LISTO
+PROGRAMADO
+PUBLICADO
+
+CALENDARIO
+schedule.date / schedule.time / schedule.platforms / publishedAt.
+
+REGLA
+Madurez y workflow son ejes distintos. Una ALFA puede estar PENDIENTE o HACIENDO.
+
+SIN PROGRAMAR
+Una ficha sin date permanece en la bandeja lateral del Calendar.
+
+DRAG
+Asignar fecha puede evolucionar LISTO→PROGRAMADO según reglas de UI.
+Quitar fecha puede regresar PROGRAMADO→LISTO.
+
+LA IA
+Puede proponer schedule sólo si el usuario lo pidió o Project Config lo define. No inventar fechas de publicación.

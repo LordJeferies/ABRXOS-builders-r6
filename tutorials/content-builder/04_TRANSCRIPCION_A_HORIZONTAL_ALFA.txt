@@ -1,0 +1,8 @@
+CASO · SÓLO TRANSCRIPCIÓN → HORIZONTAL ALFA
+===========================================
+
+1. horizontal + ALFA.
+2. indicar duración/objetivo.
+3. XR_FULL usa aprox. 1 XR/2 min, no cuota ciega.
+4. permitir multicorte con sourceRanges en orden editorial.
+5. comprobar que no sea un vertical estirado.

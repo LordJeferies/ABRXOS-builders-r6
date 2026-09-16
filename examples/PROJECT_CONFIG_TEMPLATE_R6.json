@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "abrxos.project-config.r6",
+  "projectId": "PROJECT_ID",
+  "projectName": "PROJECT NAME",
+  "brandId": "BRAND_ID",
+  "language": "es",
+  "timezone": "America/New_York",
+  "defaultStage": "ALFA",
+  "defaultEditProfile": {
+    "code": "XR_FULL",
+    "commercialName": "Cinematic Edit"
+  },
+  "sourceGroups": {
+    "DEFAULT": {
+      "label": "Fuente principal",
+      "masterAvailability": {
+        "vertical": true,
+        "horizontal": true
+      },
+      "allowedContentTypes": [
+        "intro",
+        "vertical",
+        "horizontal",
+        "carousel",
+        "quote",
+        "thread",
+        "note",
+        "pdf",
+        "script"
+      ],
+      "cutterRouting": {
+        "intro": [
+          "vertical",
+          "horizontal"
+        ],
+        "vertical": [
+          "vertical"
+        ],
+        "horizontal": [
+          "horizontal"
+        ]
+      }
+    }
+  },
+  "contentDefaults": {
+    "intros": 0,
+    "verticals": 0,
+    "horizontals": 0,
+    "carousels": 0,
+    "quotes": 0,
+    "threads": 0,
+    "notes": 0,
+    "pdfs": 0,
+    "scripts": 0
+  },
+  "xrDensity": {
+    "intro": {
+      "exact": 6
+    },
+    "vertical": {
+      "min": 2,
+      "max": 4
+    },
+    "horizontal": {
+      "approxPerSeconds": 120
+    },
+    "full_episode": {
+      "approxPerSeconds": 300
+    }
+  },
+  "editorialRules": {
+    "voiceoverOnlyIntros": false,
+    "onePieceEqualsOneFinalVideo": true,
+    "doNotInventTimestamps": true,
+    "preserveLiteralSource": true,
+    "avoidSameXrConsecutive": true
+  },
+  "calendar": {
+    "enabled": true,
+    "startDate": null,
+    "endDate": null,
+    "defaultPlatforms": []
+  },
+  "idRules": {
+    "introPrefix": "INTRO_",
+    "verticalPrefix": "V",
+    "horizontalPrefix": "H",
+    "carouselPrefix": "C",
+    "quotePrefix": "Q",
+    "threadPrefix": "TH",
+    "notePrefix": "N",
+    "pdfPrefix": "PDF",
+    "scriptPrefix": "SC"
+  },
+  "notes": []
+}

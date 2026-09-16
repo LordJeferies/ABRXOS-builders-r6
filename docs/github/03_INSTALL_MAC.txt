@@ -1,0 +1,34 @@
+ABRXOS · INSTALAR EN MAC DESDE EL REPO
+=====================================
+
+DESDE RAÍZ DEL REPO
+
+Instalar las dos:
+zsh install/INSTALAR_AMBAS_APPS.command
+
+Si ese launcher depende de ubicación relativa y falla, usar los individuales:
+
+zsh apps/brand-builder/INSTALAR_ABRXOS_X_BRAND_BUILDER_V1.command
+zsh apps/content-builder/INSTALAR_ABRXOS_CONTENT_BUILDER_V1.command
+
+REQUISITO
+python3 disponible en PATH.
+
+INSTALACIÓN
+~/Applications/ABRXOS/...
+
+LAUNCHERS
+~/Desktop/ABRXOS X Brand Builder.app
+~/Desktop/ABRXOS Content Builder.app
+
+DATOS
+~/ABRXOS_BRAND_BUILDER_DATA
+~/ABRXOS_CONTENT_BUILDER_DATA
+
+EXPORTS
+~/ABRXOS_BRAND_BUILDER_EXPORTS
+~/ABRXOS_CONTENT_BUILDER_EXPORTS
+
+LOGS
+~/Library/Logs/abrxos_x_brand_builder_v1.log
+~/Library/Logs/abrxos_content_builder_v1.log

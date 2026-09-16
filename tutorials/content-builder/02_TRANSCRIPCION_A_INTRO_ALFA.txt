@@ -1,0 +1,10 @@
+CASO · SÓLO TRANSCRIPCIÓN → INTRO ALFA
+======================================
+
+1. transcript_only + intro + ALFA.
+2. escoger perfil.
+3. para XR_FULL, canon exige 6 XR.
+4. definir objetivo/duración en reglas especiales si hace falta.
+5. subir transcript + config + brand.
+6. exportar y ejecutar package en IA.
+7. revisar que la IA construya historia, open loop, CINE y sourceRanges sin inventar.

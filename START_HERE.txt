@@ -1,0 +1,26 @@
+ABRXOS BUILDERS + CANON R6 · START HERE
+======================================
+
+SI QUIERES ENTENDER EL SISTEMA
+1. docs/system/00_SYSTEM_MAP.txt
+2. canon/r6/txt/00_ABRXOS_MASTER_CANON_R6.txt
+3. docs/github/00_REPO_MAP.txt
+
+SI QUIERES USAR BRAND BUILDER
+1. docs/apps/brand-builder/00_CANON_APP_BRAND_BUILDER_V1.txt
+2. tutorials/brand-builder/00_TUTORIAL_MAESTRO.txt
+3. apps/brand-builder/README.md
+
+SI QUIERES USAR CONTENT BUILDER
+1. docs/apps/content-builder/00_CANON_APP_CONTENT_BUILDER_V1.txt
+2. docs/apps/content-builder/01_CASE_ROUTER.txt
+3. tutorials/content-builder/00_TUTORIAL_MAESTRO.txt
+4. apps/content-builder/README.md
+
+SI QUIERES EDITAR EL CANON AUDIOVISUAL
+Empieza por canon/r6/txt/README_CANON_R6.txt y modifica siempre TXT + JSON + tests en el mismo cambio.
+
+SI QUIERES SUBIR A GITHUB
+1. docs/github/04_PRIVATE_PUBLIC_REPO_GUIDE.txt
+2. docs/github/01_SUBIR_A_GITHUB.txt
+3. install/PREPARAR_REPO_GITHUB.command

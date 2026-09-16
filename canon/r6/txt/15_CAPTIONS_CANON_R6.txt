@@ -1,0 +1,35 @@
+ABRXOS R6 · CAPTIONS CANON
+==========================
+
+UNIDAD DEL TIMELINE
+caption_group, no una caja por palabra.
+
+OBJETIVO NORMAL
+8–15 palabras.
+Soft range: 6–17 si la sintaxis lo exige.
+
+REGLA SEMÁNTICA
+1. no cruzar partId;
+2. cortar primero por frase/cláusula coherente;
+3. después controlar cantidad de palabras;
+4. preservar sourceText literal;
+5. displayCues pueden subdividir visualmente sin crear más bloques T9.
+
+HIGHLIGHT
+highlightWord es opcional. Normalmente debe existir literalmente en sourceText.
+
+HERO WORD
+Puede existir un Caption Group de una sola palabra cuando la palabra es suficientemente fuerte. Requiere razón editorial.
+
+COMIC_CC
+Caption Group permanece estructuralmente pero `visibility=hidden` y `suppressedBy=<xrId>`.
+
+BUENO
+Un bloque T9 de 10 palabras con highlightWord y 2–3 displayCues internos.
+
+MALO
+- palabra por palabra en timeline;
+- cortar exactamente cada 10 palabras;
+- resaltar una palabra en todos los captions;
+- mezclar final de Hook e inicio de Desarrollo;
+- eliminar captions porque COMIC_CC los oculta.

@@ -1,0 +1,28 @@
+XR R6 · PHOTOS
+===============
+
+FUNCIÓN
+Contextualizar o demostrar una idea usando tres fotografías distintas.
+
+ASSETS
+Exactamente 3 fotos.
+
+ORDEN
+A01 close-up
+A02 plano amplio
+A03 close-up
+
+DURACIÓN TOTAL
+6–12 s.
+
+CADA FOTO DEBE TENER
+prompt, brollReference, googleSearchQuery, contexto/detalle, qué se ve, por qué corresponde al speech, placement recomendado, duración, Motion y SFX opcional.
+
+BUENO
+Las tres fotos hablan del mismo concepto pero aportan escala distinta: detalle → contexto → detalle decisivo.
+
+MALO
+- una sola foto con tres crops;
+- tres imágenes genéricas sin continuidad conceptual;
+- stock irrelevante;
+- close-up que no muestra ningún detalle demostrativo.

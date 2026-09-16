@@ -1,0 +1,10 @@
+CASO · QUIERO CONSTRUIR LA MARCA CON FORMULARIO
+==============================================
+
+1. Crear marca.
+2. Completar Brand Form: negocio, cliente, audiencia, propósito, voz y visuales conocidos.
+3. En Method Summary completar al menos los cinco resultados: Ego, Gang, Essence, Identity, Experience.
+4. En Adapter configurar sólo reglas confirmadas.
+5. Agregar Raw Context para matices que no caben en campos.
+6. Build AI Package.
+7. La IA debe usar formulario como USER_CONFIRMED y el resto como source/inference.

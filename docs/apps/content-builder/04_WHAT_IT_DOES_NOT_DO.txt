@@ -1,0 +1,22 @@
+ABRXOS CONTENT BUILDER V1 · LÍMITES
+==================================
+
+NO ES
+- Geometra;
+- Cutter;
+- Lienzo;
+- editor de video;
+- modelo IA;
+- transcript aligner;
+- calendar/kanban editor.
+
+NO DEBE
+- inventar timestamps;
+- elegir highlights silenciosamente;
+- modificar el Brand Adapter;
+- convertir una Beta en Alfa sin pedirlo;
+- cambiar canonicalId al actualizar;
+- mezclar sources en multi-source;
+- agregar XR a Dynamic/Clean;
+- generar horizontal si el Project Config no lo permite;
+- modificar la transcripción original.

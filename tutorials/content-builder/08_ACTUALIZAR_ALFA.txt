@@ -1,0 +1,9 @@
+CASO · ACTUALIZAR UNA ALFA EXISTENTE
+====================================
+
+1. workflowMode=update_alpha.
+2. cargar currentFicha Alfa.
+3. describir delta en reglas especiales.
+4. no reconstruir innecesariamente.
+5. conservar IDs de pieza/assets no reemplazados.
+6. validar que el cambio solicitado sí aparece y lo demás se conserva.

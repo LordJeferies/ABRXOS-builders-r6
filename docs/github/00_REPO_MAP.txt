@@ -1,0 +1,34 @@
+ABRXOS · MAPA DEL REPOSITORIO
+============================
+
+/
+├── README.md
+├── VERSION.json
+├── .gitignore
+├── apps/
+│   ├── brand-builder/       código completo, HTML, tests, installer individual
+│   └── content-builder/     código completo, recursos R6, tests, installer individual
+├── canon/
+│   └── r6/
+│       ├── json/            contratos machine-readable
+│       └── txt/             canon humano detallado
+├── docs/
+│   ├── system/              arquitectura global
+│   ├── apps/                canon de cada app
+│   └── github/              repo/install/versionado
+├── tutorials/
+│   ├── brand-builder/
+│   ├── content-builder/
+│   └── system/
+├── examples/                ejemplos no secretos
+├── tools/                   validadores/utilidades
+├── install/                 installers macOS
+└── references/              notas de fuentes externas; no material privado
+
+DÓNDE CAMBIAR QUÉ
+- regla XR: canon/r6/json/libraries + canon/r6/txt + tests afectados.
+- prompt de un caso: canon/r6/json/prompts + apps/content-builder/resources/canon_r6/prompts.
+- UI Brand: apps/brand-builder/web/index.html.
+- export Brand: apps/brand-builder/brand_engine.py.
+- router Content: apps/content-builder/content_engine.py.
+- installer: apps/*/INSTALAR... y install/.

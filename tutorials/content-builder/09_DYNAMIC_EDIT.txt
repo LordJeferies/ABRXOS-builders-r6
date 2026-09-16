@@ -1,0 +1,7 @@
+CASO · DYNAMIC EDIT / MOTION_SFX
+================================
+
+1. video ALFA + editProfile=MOTION_SFX.
+2. XR = 0.
+3. la IA trabaja A-roll + Motion + SFX + Music + Captions + CINE.
+4. usar cuando el servicio es editado pero no requiere assets XR.

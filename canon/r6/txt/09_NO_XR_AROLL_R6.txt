@@ -1,0 +1,24 @@
+ABRXOS R6 · NO_XR / A-ROLL
+==========================
+
+NO_XR NO SIGNIFICA SIN EDICIÓN.
+
+PUEDE TENER
+- A-roll limpio;
+- ZOOM_IN/OUT;
+- PAN/reframe;
+- SLOW_DRIFT;
+- FADE/SLIDE/BLUR/CUT;
+- SFX;
+- Music automation;
+- Captions;
+- CINE beat.
+
+USAR CUANDO
+El rostro/gesto/voz ya comunica mejor que una intervención visual adicional.
+
+BUENO
+Mantener una confesión importante sobre el rostro, hacer micro push-in y bajar música.
+
+MALO
+Forzar XR sólo porque el perfil permite XR.

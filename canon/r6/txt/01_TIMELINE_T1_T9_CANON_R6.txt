@@ -1,0 +1,31 @@
+ABRXOS R6 · TIMELINE T1–T9
+==========================
+
+T9 CAPTIONS
+T8 MUSIC
+T7 SFX
+T6 VO
+T5 B-ROLL / CINE
+T4 MOTION
+T3 IMAGES
+T2 XR
+T1 A-ROLL
+
+REGLA
+Una lane no es un grupo monolítico. Cada evento tiene start/end independiente.
+
+EJEMPLO
+T9 [Caption Group────────]
+T8 [Music────────────────────────]
+T7          [SFX]
+T5              [CINE BLACK]
+T4 [Zoom][Pan]  [Fade][Fade]
+T3 [A01][A02][A03]
+T2 [──── XR PHOTOS ────]
+T1 [──────── A-roll ─────────────]
+
+DEPENDENCIAS
+- T2 XR puede agrupar conceptualmente hijos T3/T4/T7.
+- Mover un visual libre no cambia sourceRanges.
+- CINE se guarda en T5 como type=cine y coordina T4/T7/T8 cuando aplica.
+- Captions ocultos por COMIC_CC se conservan, no se eliminan.

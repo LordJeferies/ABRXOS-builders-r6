@@ -1,0 +1,34 @@
+ABRXOS · SUBIR ESTE REPO A GITHUB
+================================
+
+OPCIÓN A · GITHUB CLI (recomendada si `gh auth status` funciona)
+
+1. Descomprime el ZIP.
+2. Terminal:
+
+cd "$HOME/Downloads/ABRXOS_BUILDERS_CANON_R6_GITHUB_REPO"
+git init
+git add .
+git commit -m "Initial ABRXOS Builders V1 + Canon R6"
+
+3. Crear repo privado:
+
+gh repo create ABRXOS-builders-r6 --private --source=. --remote=origin --push
+
+Para público, cambia `--private` por `--public` sólo si estás seguro de que no hay datos de clientes.
+
+OPCIÓN B · REPO YA CREADO EN GITHUB
+
+cd "$HOME/Downloads/ABRXOS_BUILDERS_CANON_R6_GITHUB_REPO"
+git init
+git add .
+git commit -m "Initial ABRXOS Builders V1 + Canon R6"
+git branch -M main
+git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
+git push -u origin main
+
+ANTES DE PUBLICAR
+- revisar `git status`;
+- no subir masters, transcripts privados, .env, API keys ni exports de clientes;
+- el PDF del Branding Method no viene incluido;
+- decidir licencia del código antes de hacerlo público.

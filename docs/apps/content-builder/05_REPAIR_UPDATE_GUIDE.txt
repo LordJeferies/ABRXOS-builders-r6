@@ -1,0 +1,24 @@
+ABRXOS CONTENT BUILDER V1 · REPARAR Y ACTUALIZAR
+===============================================
+
+ARCHIVOS CLAVE
+app.py             servidor local.
+content_engine.py  case router, template resolver, compiler, package ZIP.
+web/index.html     interfaz.
+resources/canon_r6 prompt/template/library snapshot.
+tests/             regresión.
+
+SI UN CASO CARGA EL PROMPT INCORRECTO
+1. revisar select_case();
+2. revisar PROMPTS mapping;
+3. revisar excepción static para quote/thread/note/pdf/script;
+4. escribir/actualizar test del caso antes de cambiar código.
+
+SI FALTA TEMPLATE
+Revisar `_template_name()` y TYPE_DIR. El nombre debe existir físicamente en resources/canon_r6/fichas.
+
+SI CAMBIA R6
+Actualizar resources/canon_r6 como snapshot coherente: context + libraries + fichas + prompts + schemas. No sustituir sólo una librería.
+
+SI FALLA EXPORT
+Verificar que ONE_FILE_CONTEXT_R6.txt, prompt y template existan. No generar un package parcial silenciosamente.

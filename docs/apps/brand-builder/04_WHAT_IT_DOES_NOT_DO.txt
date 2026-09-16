@@ -1,0 +1,22 @@
+ABRXOS X · BRAND BUILDER V1 · LÍMITES
+====================================
+
+NO ES
+- un chatbot;
+- un editor gráfico;
+- una agencia automática;
+- un buscador de competencia;
+- un sistema de naming legal;
+- un generador de logo;
+- una base de datos cloud;
+- un CMS;
+- Geometra.
+
+NO DEBE
+- transformar silenciosamente Raw Context;
+- afirmar como confirmado lo inferido;
+- copiar el contenido completo de un método de terceros dentro del repo;
+- guardar API keys;
+- depender de conexión a internet para abrir o recuperar borradores;
+- borrar campos desconocidos al reimportar Adapter;
+- introducir reglas de Content Builder dentro de Brand Builder.

@@ -1,0 +1,22 @@
+BRAND BUILDER V1 · TUTORIAL MAESTRO
+===================================
+
+RUTA RÁPIDA
+1. Abrir app.
+2. Crear marca.
+3. Pegar Raw Context.
+4. Completar formulario sólo donde tengas datos.
+5. Completar 5 Drivers en resumen.
+6. Abrir 25 Tools sólo si hace falta profundidad.
+7. Revisar Brand Adapter Draft.
+8. Adjuntar referencias.
+9. Build AI Package.
+10. Subir archivos indicados a IA.
+11. Recibir Strategy JSON/TXT + Adapter JSON/TXT.
+12. Importar Adapter y guardar versión.
+
+RUTA PROFUNDA
+Igual, pero completar cada tool del Branding Method y adjuntar el PDF original como referencia externa cuando corresponda.
+
+NO NECESITAS
+rellenar todo para exportar; lo desconocido debe quedar como needs_review, no inventarse.

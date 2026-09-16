@@ -1,0 +1,8 @@
+CASO · TENGO LOGOS, MOODBOARDS, VIDEOS, PDF O CAPTURAS
+=====================================================
+
+1. Cargar referencia en References.
+2. La app copia el archivo a la carpeta de datos y registra SHA256.
+3. En notas indicar para qué sirve: color, encuadre, tono, tipografía, experiencia, etc.
+4. No asumir que una referencia permite copiar una marca completa.
+5. Al exportar, seleccionar sólo referencias relevantes para el análisis.

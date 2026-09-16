@@ -1,0 +1,9 @@
+CASO · BETA SELECCIONADA → ALFA
+===============================
+
+1. workflowMode=beta_to_alpha.
+2. cargar currentFicha Beta.
+3. stage=ALFA.
+4. conservar canonicalId, tesis, source e intención.
+5. desarrollar timeline/visual/audio/QA según perfil.
+6. no cambiar XR aprobados silenciosamente si la Beta los fijó.

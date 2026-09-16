@@ -1,0 +1,59 @@
+ABRXOS CONTENT BUILDER V1 · CANON DE PRODUCTO
+=============================================
+
+DEFINICIÓN
+Package Builder editorial local. Recibe una intención de contenido y reúne automáticamente el prompt, ficha target y canon R6 correctos para pedir a una IA externa una ficha Beta o Alfa compatible con Geometra.
+
+PUESTO EN EL SISTEMA
+Va después de Brand Strategy/Brand Adapter y antes de la IA de fichas y Geometra.
+
+ENTRADAS
+- workflowMode;
+- contentType;
+- stage BETA/ALFA;
+- editProfile;
+- quantity;
+- projectId;
+- sourceGroup;
+- timingQuality;
+- xrCount/regla;
+- orientations;
+- platforms;
+- transcript;
+- editorialPlan;
+- Project Config;
+- Brand Adapter;
+- currentFicha cuando se actualiza;
+- reglas especiales.
+
+SALIDAS
+- AI Content Package folder;
+- ZIP;
+- prompt final compilado;
+- request JSON;
+- transcript/plan;
+- Project Config;
+- Brand Adapter;
+- ficha target;
+- canon context;
+- libraries R6;
+- manifest con hashes.
+
+QUÉ HACE
+- selecciona uno de los casos canónicos;
+- selecciona el template correcto;
+- pinnea R6;
+- compila instrucciones del request;
+- guarda drafts;
+- mantiene bibliotecas locales de Brand Adapter y Project Config;
+- prepara inputs para JSON + TXT de salida.
+
+QUÉ NO HACE
+- no llama IA;
+- no analiza creativamente la transcripción;
+- no verifica audio;
+- no crea timestamps;
+- no importa el resultado a Geometra automáticamente;
+- no corta video;
+- no genera imágenes;
+- no reemplaza Brand Builder.

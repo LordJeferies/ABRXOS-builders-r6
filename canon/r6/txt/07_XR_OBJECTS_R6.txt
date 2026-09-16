@@ -1,0 +1,35 @@
+XR R6 · OBJECTS
+================
+
+FUNCIÓN
+Representar conceptos mediante tres objetos visuales que pueden vivir delante o detrás del speaker.
+
+ASSETS
+Exactamente 3 objetos.
+
+DURACIÓN TOTAL
+6–12 s.
+
+POR OBJETO
+- descripción;
+- por qué representa la frase;
+- placementRecommendation foreground/background;
+- placementReason;
+- 2 emoji fallbacks;
+- prompt si se genera PNG/objeto;
+- referencia/búsqueda;
+- Motion;
+- SFX opcional.
+
+EMOJI
+Puede reemplazar el objeto si no se produce o si funciona mejor. Debe conservar significado, no ser decoración.
+
+BUENO
+Objeto reconocible en <2 s, placement refuerza jerarquía y los tres representan unidades distintas del beat.
+
+MALO
+- "agregar emojis" sin inventario;
+- objetos aleatorios;
+- objetos tapando rostro/captions;
+- objeto 3D hiperrealista incompatible con la marca;
+- tres assets que significan lo mismo.

@@ -1,0 +1,25 @@
+ABRXOS R6 · CONTRATO DE VISUAL ASSET
+====================================
+
+CADA IMAGE/OBJECT DEBE RESPONDER
+1. ¿Qué se ve?
+2. ¿Cuál es el contexto y detalle importante?
+3. ¿Por qué corresponde al speech/beat?
+4. ¿Cómo se puede generar?
+5. ¿Qué buscaría en Google/stock?
+6. ¿Va foreground/background/fullscreen?
+7. ¿Por qué ese placement?
+8. ¿Cuánto dura?
+9. ¿Qué Motion tiene?
+10. ¿Tiene SFX relacionado?
+11. ¿Cuál es su status real?
+
+CAMPOS RECOMENDADOS
+assetId, type, description, contextAndDetail, whatIsVisible, whyItMatchesSpeech, prompt, brollReference, googleSearchQuery, placementRecommendation, placementReason, start, end, duration, motionId, linkedSfx, status.
+
+STATUS
+pending_creation / candidate / created / selected / approved / rejected según flujo.
+
+REGLA
+Un prompt no convierte un asset en `created`.
+Una ruta local ficticia está prohibida.

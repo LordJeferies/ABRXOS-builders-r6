@@ -1,0 +1,8 @@
+CASO · EPISODIO COMPLETO ALFA
+=============================
+
+1. full_episode.
+2. decidir si es referencia/editorial o producción completa según Project Config.
+3. XR_FULL ≈ 1 XR/5 min.
+4. mantener capítulos/parts y source truth.
+5. no pedir al Cutter producir un episodio completo si la arquitectura del proyecto lo marca sólo como referencia.

@@ -1,0 +1,40 @@
+ABRXOS CONTENT BUILDER V1 · DATOS Y PERSISTENCIA
+================================================
+
+REQUEST PRINCIPAL
+- requestId
+- projectId
+- workflowMode
+- contentType
+- stage
+- editProfile
+- quantity
+- sourceGroup
+- timingQuality
+- xrCount
+- orientations[]
+- platforms[]
+- transcript
+- editorialPlan
+- projectConfig{}
+- brandAdapter{}
+- currentFicha{}
+- specialRules
+
+DRAFTS
+Se guardan como JSON independientes con slug estable y updatedAt.
+
+LIBRARY
+Brand Adapters y Project Configs pueden guardarse localmente para reutilización.
+
+CANON RESOURCES
+resources/canon_r6/ contiene context, prompts, fichas, librerías y schemas. El Builder no debe duplicar lógica diferente en el frontend.
+
+ENDPOINTS
+La implementación local expone health, draft CRUD, library CRUD y export. Ver app.py para contrato exacto de la versión.
+
+EXPORTS
+~/ABRXOS_CONTENT_BUILDER_EXPORTS/
+
+DATA
+~/ABRXOS_CONTENT_BUILDER_DATA/

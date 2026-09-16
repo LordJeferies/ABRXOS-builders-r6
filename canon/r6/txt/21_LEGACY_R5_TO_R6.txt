@@ -1,0 +1,22 @@
+ABRXOS · MIGRACIÓN CONCEPTUAL R5 → R6
+=====================================
+
+R5 XR00–XR09 eran familias más específicas. R6 usa gramática simplificada.
+
+MAPA ORIENTATIVO, NO CONVERSIÓN AUTOMÁTICA 1:1
+R5 XR00 → NO_XR / A-roll Motion
+R5 XR01 → PHOTOS
+R5 XR02 → COMIC_INFO o TYPO según uso
+R5 XR03 → TYPO
+R5 XR04 → COMIC_INFO
+R5 XR05 → PHOTOS
+R5 XR06 → COMIC_INFO
+R5 XR07 → OBJECTS
+R5 XR08 → PHOTOS
+R5 XR09 → TYPO
+
+REGLA
+Una ficha histórica mantiene `legacyXrFamily` si hace falta. No renombrar silenciosamente eventos existentes.
+
+MIGRAR SÓLO
+cuando la pieza se revisa explícitamente o un importador dedicado puede preservar intención y IDs.

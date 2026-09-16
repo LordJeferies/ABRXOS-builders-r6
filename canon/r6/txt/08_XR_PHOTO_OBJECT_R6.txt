@@ -1,0 +1,23 @@
+XR R6 · PHOTO_OBJECT
+====================
+
+FUNCIÓN
+Contextualizar con una foto y enfatizar dos conceptos mediante objetos superpuestos.
+
+ASSETS
+A01 = 1 fotografía de fondo.
+A02 = objeto foreground.
+A03 = objeto foreground.
+Total = 3 assets.
+
+DURACIÓN
+8–12 s.
+
+BUENO
+La foto crea mundo/contexto y los objetos entran sólo cuando el speech los activa. Motion del fondo es sutil; objetos pueden entrar por fade/slide/cut con SFX opcional.
+
+MALO
+- fondo y objetos sin relación;
+- usar dos objetos como decoración;
+- agregar un cuarto/quinto objeto sin cambio de familia;
+- movimiento permanente de todo simultáneamente.

@@ -1,0 +1,9 @@
+CASO · GENERAR TODO EL PROYECTO
+===============================
+
+1. workflowMode=all_project.
+2. contentType=all cuando corresponda.
+3. definir cantidades.
+4. preferir BETA para descubrimiento masivo.
+5. la IA devuelve pieces[] de distintos tipos.
+6. no forzar cantidades si no hay suficientes candidatos fuertes.

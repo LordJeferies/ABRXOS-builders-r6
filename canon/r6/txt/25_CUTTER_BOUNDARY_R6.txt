@@ -1,0 +1,27 @@
+ABRXOS R6 · FRONTERA CON CUTTER
+==============================
+
+CUTTER CONSUME
+- content ID;
+- source/master group;
+- sourceRanges exactos;
+- orden;
+- orientación/output routing.
+
+CUTTER IGNORA PARA CORTAR
+- XR;
+- Images;
+- Motion;
+- CINE;
+- SFX;
+- Music;
+- Captions;
+- prompts;
+- Kanban;
+- calendario.
+
+CUÁNDO RECORTAR DE NUEVO
+Si cambia sourceRanges, source group, orden de rangos o master binding.
+
+CUÁNDO NO
+Si sólo cambian XR, asset, prompt, timing visual, SFX, Music o captions.

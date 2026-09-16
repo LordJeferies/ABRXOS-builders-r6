@@ -1,0 +1,8 @@
+CASO · CLEAN EDIT / SFX_ONLY
+============================
+
+1. video ALFA + editProfile=SFX_ONLY.
+2. XR = 0.
+3. Motion mínimo/ninguno.
+4. conservar cortes, captions, Music, SFX puntuales y CINE excepcional.
+5. no agregar zooms por defecto.

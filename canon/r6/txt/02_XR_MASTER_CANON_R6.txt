@@ -1,0 +1,31 @@
+ABRXOS R6 · XR MASTER
+====================
+
+QUÉ ES UN XR
+Un XR es una intervención visual planificada que ayuda a comprender, sentir o recordar un beat. No es un preset decorativo y no es sinónimo de imagen.
+
+ELECCIÓN
+Primero preguntar: ¿qué debe comprender/sentir el espectador? Después elegir familia.
+
+BUEN XR
+- prueba o clarifica la frase;
+- tiene función narrativa explícita;
+- su duración cabe en el beat;
+- tiene assets exactos según su familia;
+- cada asset explica qué contiene y por qué;
+- Motion es ejecutable;
+- SFX es opcional y justificado;
+- respeta captions y safe areas;
+- puede producirse sin adivinar.
+
+MAL XR
+- "poner una imagen impactante";
+- repetir la misma familia por comodidad;
+- generar assets extra para llenar una cuota;
+- usar tres imágenes iguales con zoom diferente cuando la familia exige tres fotos distintas;
+- usar un Motion llamativo para compensar una imagen sin significado;
+- insertar texto no pronunciado como si fuera source literal;
+- colocar SFX porque "hace falta sonido".
+
+DENSIDAD
+Es un objetivo editorial, no permiso para forzar XR inútiles.

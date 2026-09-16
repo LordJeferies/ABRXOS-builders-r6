@@ -1,0 +1,23 @@
+ABRXOS R6 · SOURCE TRUTH Y TIMING
+=================================
+
+SOURCE TIME
+`sourceRanges` usa tiempo del master original.
+
+EDIT TIME
+`timeline.start/end` usa tiempo relativo dentro de la pieza ensamblada.
+
+TIMING STATUS
+verified
+word_aligned
+cue_based
+editorial_planned
+estimated
+unresolved
+
+REGLAS
+- nunca derivar precisión inexistente;
+- VO añadido no recibe sourceRange del master;
+- sourceRanges se guardan en orden editorial;
+- mover visual no mueve source;
+- cambiar sourceRange sí puede requerir volver a Cutter.

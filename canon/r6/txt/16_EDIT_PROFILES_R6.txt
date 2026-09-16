@@ -1,0 +1,17 @@
+ABRXOS R6 · PERFILES DE EDICIÓN
+===============================
+
+XR_FULL · COMMERCIAL: CINEMATIC EDIT
+Permite XR, Motion, SFX, CINE, Music automation y Captions completos.
+
+MOTION_SFX · COMMERCIAL: DYNAMIC EDIT
+No usa XR. Trabaja A-roll con Motion, SFX, CINE, Music automation y Captions.
+
+SFX_ONLY · COMMERCIAL: CLEAN EDIT
+No usa XR. Motion mínimo o ninguno. Mantiene SFX, CINE, Music automation y Captions.
+
+REGLA
+El código interno y el nombre comercial se guardan juntos.
+
+CINE
+Puede existir en los tres perfiles si el beat lo justifica.

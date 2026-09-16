@@ -1,0 +1,32 @@
+XR R6 · COMIC_CC
+================
+
+FUNCIÓN
+Convertir lo hablado durante un beat en tres escenas editoriales con el texto integrado a la composición, sin estética de burbuja de cómic.
+
+ASSETS
+Exactamente 3 imágenes distintas.
+
+SHOT ORDER
+A01 = plano amplio
+A02 = close-up
+A03 = plano medio
+
+DURACIÓN
+2–4 s por imagen.
+
+TEXTO
+Debe representar el speech del intervalo correspondiente. Puede estar normalizado para legibilidad, pero debe seguir siendo trazable al source.
+
+CAPTIONS
+T9 se oculta durante COMIC_CC para no duplicar texto. Los Caption Groups permanecen en la ficha y el lector continuo conserva toda la historia.
+
+BUENO
+Texto integrado con arquitectura/espacio/objetos; composición cambia de escala narrativa entre wide, close-up y medium; cada placa se entiende sola y juntas forman progresión.
+
+MALO
+- speech bubbles;
+- tres imágenes con mismo encuadre;
+- captions visibles duplicando el texto;
+- texto creado por IA ilegible;
+- parafrasear una cita sensible y presentarla como literal.

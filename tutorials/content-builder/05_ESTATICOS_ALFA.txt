@@ -1,0 +1,9 @@
+CASO · TRANSCRIPCIÓN → CARRUSEL / QUOTE / THREAD / NOTE / PDF / SCRIPT
+======================================================================
+
+1. seleccionar tipo estático + ALFA.
+2. no usar timeline audiovisual.
+3. definir slides/items si aplica.
+4. cada item: función, texto, source, visual, prompt, status.
+5. copy separado.
+6. carrusel debe ampliar/sistematizar, no trocear transcript.

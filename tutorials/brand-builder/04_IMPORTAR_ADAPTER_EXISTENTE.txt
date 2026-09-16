@@ -1,0 +1,10 @@
+CASO · YA TENGO UN BRAND ADAPTER R6
+===================================
+
+1. Abrir la marca correcta.
+2. Importar Brand Adapter JSON.
+3. Confirmar brandId.
+4. Revisar JSON avanzado para campos que la UI no expone.
+5. Guardar.
+6. Si vas a mejorarlo, añade Raw Context/Method y exporta nuevo AI Package.
+7. La nueva IA debe conservar campos confirmados y reportar cambios.

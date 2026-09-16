@@ -1,0 +1,38 @@
+XR R6 · COMIC_INFO
+==================
+
+FUNCIÓN
+Explicar información complementaria con una sola composición editorial rica recorrida mediante cámara.
+
+ASSETS
+Exactamente 1 imagen maestra.
+
+DURACIÓN
+12–20 s.
+
+TEXTO
+Por defecto editorial/complementario, no necesariamente literal.
+
+ESTADOS / RECORRIDO
+S01 inferior izquierda
+S02 inferior derecha
+S03 superior izquierda
+S04 superior derecha
+S05 full composition + centro/idea principal
+
+MOTION TÍPICO
+ZOOM_IN_PAN → PAN → PAN → PAN → ZOOM_OUT_PAN.
+
+BUENO
+Una composición donde las cuatro zonas contienen unidades relacionadas y el centro conecta o sintetiza. Cada vista aporta nueva información y el último reveal permite entender el conjunto.
+
+MALO
+- cinco imágenes distintas disfrazadas de una;
+- zonas sin relación;
+- centro decorativo;
+- paneos que no tienen orden de lectura;
+- texto minúsculo que sólo funciona al ver toda la imagen;
+- saturar con captions + texto de info sin decisión de legibilidad.
+
+CAPTIONS
+AUTO. La ficha decide si quedan visibles según carga visual.

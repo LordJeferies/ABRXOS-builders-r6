@@ -1,0 +1,19 @@
+ABRXOS R6 · POLÍTICA DE VERSIONADO
+==================================
+
+CAPAS DE VERSIÓN
+- App version: versión ejecutable de cada Builder.
+- Canon version: reglas editoriales/técnicas, actualmente R6.
+- Schema version: formato JSON concreto.
+- Brand Adapter version: revisión de una marca.
+- Project Config version: revisión del proyecto/episodio.
+- Ficha revision: revisión de una pieza.
+
+REGLAS
+1. Cambiar título no cambia canonicalId.
+2. Evolucionar BETA→ALFA conserva canonicalId.
+3. Cambiar una librería R6 requiere changelog si cambia comportamiento.
+4. Un AI Package conserva copia/snapshot del canon utilizado.
+5. Un proyecto viejo no se actualiza silenciosamente a reglas nuevas.
+6. Cambios incompatibles deben registrar migración R6→R7 o similar.
+7. Nunca reutilizar el mismo schemaVersion con significado distinto.

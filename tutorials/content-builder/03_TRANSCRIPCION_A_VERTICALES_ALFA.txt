@@ -1,0 +1,9 @@
+CASO · SÓLO TRANSCRIPCIÓN → VERTICALES ALFA
+===========================================
+
+1. vertical + ALFA.
+2. quantity deseada.
+3. XR_FULL = 2–4 XR por pieza.
+4. pedir autonomía: cada clip debe entenderse fuera del episodio.
+5. evitar repetir la misma tesis para llenar cantidad.
+6. validar sourceRanges y IDs V01…Vnn.

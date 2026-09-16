@@ -1,0 +1,16 @@
+CASO · PLAN EDITORIAL FIJO + TRANSCRIPCIÓN → ALFA
+=================================================
+
+Usar cuando ya decidiste el orden narrativo, preguntas, source fragments, open loops, negros/silencios o cortes.
+
+PASOS
+1. workflowMode=fixed_plan.
+2. stage=ALFA.
+3. elegir content type y perfil.
+4. pegar plan literalmente.
+5. cargar transcripción timecodeada.
+6. cargar Brand Adapter + Project Config.
+7. si timing es verificable, Builder usa case 01; si no, case 13.
+8. exportar package.
+9. pedir a la IA que alinee el plan, no lo rediseñe.
+10. validar ficha.

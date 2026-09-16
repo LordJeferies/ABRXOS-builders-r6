@@ -1,0 +1,45 @@
+ABRXOS X · BRAND BUILDER V1 · DATOS Y PERSISTENCIA
+==================================================
+
+OBJETO PRINCIPAL DE MARCA
+Campos de alto nivel esperados:
+- slug
+- brandId
+- brandName
+- canonVersion
+- rawContext
+- brandForm
+- method.summary
+- method.tools
+- brandAdapterDraft
+- references
+- compiledPrompt
+- createdAt
+- updatedAt
+
+COMPLETION
+V1 calcula cuatro bloques: raw, form, method y adapter.
+No mide calidad ni cantidad de palabras.
+
+STORE
+`BrandStore` persiste un JSON por marca. El slug se normaliza para nombres de archivo estables.
+
+MERGE / IMPORT
+Al importar un Brand Adapter se reemplaza `brandAdapterDraft`, manteniendo el resto del proyecto de marca.
+Campos no conocidos dentro del Adapter deben conservarse en el JSON avanzado.
+
+REFERENCIAS
+Se copian a una carpeta por marca y se registra filename, path, bytes y SHA256.
+No deben inventarse rutas locales.
+
+ENDPOINTS DEL SERVIDOR LOCAL
+GET  /api/health
+GET  /api/brands
+GET  /api/brand/<slug>
+GET  /api/method-registry
+GET  /api/adapter-template
+POST /api/brand/save
+POST /api/brand/delete
+POST /api/export
+POST /api/reference/upload
+POST /api/import/adapter

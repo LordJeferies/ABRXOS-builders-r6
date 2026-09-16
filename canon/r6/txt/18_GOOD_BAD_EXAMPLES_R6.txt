@@ -1,0 +1,42 @@
+ABRXOS R6 · EJEMPLOS BUENOS Y MALOS
+===================================
+
+XR
+GOOD: "PHOTOS: close-up de documento → wide del proceso → close-up del sello final; cada uno corresponde a una unidad de la explicación."
+BAD: "3 imágenes bonitas sobre el tema."
+
+COMIC_INFO
+GOOD: cuatro zonas relacionadas + centro que sintetiza; recorrido 5 estados.
+BAD: collage de cinco imágenes distintas sin orden.
+
+COMIC_CC
+GOOD: wide/close/medium con speech integrado; T9 oculto.
+BAD: speech bubbles y captions duplicados.
+
+OBJECTS
+GOOD: tres objetos con placement y dos emoji fallbacks cada uno.
+BAD: "poner iconos relacionados".
+
+MOTION
+GOOD: valores inicial/final y target claros.
+BAD: "hacer movimiento dinámico".
+
+CINE
+GOOD: tras "mi papá fallece", fade→black 1 s, LOW_BOOM opcional, Music mute, silencio.
+BAD: pantalla negra genérica sin razón.
+
+SFX
+GOOD: CLICK reutilizado para apariciones pequeñas.
+BAD: sonido distinto en cada aparición.
+
+MUSIC
+GOOD: duck bajo confesión, mute durante CINE01, resume después.
+BAD: "sube música para emoción" sin timing.
+
+CAPTIONS
+GOOD: 8–15 palabras por idea, highlight opcional, hero word excepcional.
+BAD: cada palabra como bloque T9.
+
+NO_XR
+GOOD: mantener rostro + SLOW_DRIFT + duck de música.
+BAD: insertar XR porque quedan demasiados segundos de A-roll.

@@ -1,0 +1,39 @@
+ABRXOS R6 · SFX CANON
+=====================
+
+FILOSOFÍA
+Biblioteca pequeña y reconocible. Repetir sonidos útiles es mejor que inventar un sonido diferente por evento.
+
+FAMILIAS
+SFX_CLICK
+SFX_KEYBOARD
+SFX_WHOOSH
+SFX_CAMERA
+SFX_GOOD
+SFX_WRONG
+SFX_LOW_BOOM
+SFX_EMPHASIS
+SFX_SUSPENSE
+SFX_TENSION
+SFX_RISER
+SFX_IMPACT
+SFX_CLICK_DEEP
+
+CADA EVENTO
+id, libraryId, variant, trigger, purpose, start, end, mix, status.
+
+STATUS
+pending_selection / selected / placed / approved.
+
+BUENO
+SFX aparece porque existe un trigger: objeto entra, giro verbal, confirmación, tensión, revelación.
+
+MALO
+- un whoosh por cada corte;
+- 10 familias para 10 eventos;
+- competir con la voz;
+- SFX sin trigger ni propósito;
+- impacto fuerte sobre momento íntimo.
+
+REGLA
+CINE/XR/Motion pueden sugerir SFX; nunca lo hacen obligatorio por existir.

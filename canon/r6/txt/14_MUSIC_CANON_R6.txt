@@ -1,0 +1,29 @@
+ABRXOS R6 · MUSIC CANON
+=======================
+
+DEFINICIÓN
+La ficha no tiene que elegir canción exacta si el usuario no la dio. Debe describir función emocional, búsqueda/selección y automatización de nivel.
+
+AUTOMATION
+BASE
+SWELL
+DUCK
+MUTE
+RESUME
+FADE_IN
+FADE_OUT
+
+EVENTO
+id, start, end, function, selectionBrief, automation[].
+
+BUENO
+"DUCK durante confesión para dejar voz al frente; MUTE durante BLACK_HOLD; RESUME 500 ms después del siguiente bloque."
+
+MALO
+"música cinematográfica" sin función ni timing.
+
+REGLAS
+- describir cuándo y por qué sube/baja;
+- no fijar LUFS exactos sin medir;
+- CINE01 puede usar duck→mute→resume;
+- silencio puede ser una decisión musical.

@@ -1,0 +1,14 @@
+CASO · UN VIDEO NECESITA SALIRSE DE LA NORMA DE MARCA
+=====================================================
+
+No cambies el Brand Adapter principal por un solo video.
+
+Usa BRAND_ADAPTER_VIDEO_OVERRIDE_TEMPLATE_R6.json.
+
+Ejemplo:
+- marca default = Cinematic Edit;
+- pieza V03 = Clean Edit;
+- campaign palette temporal;
+- caption position temporal.
+
+El override debe declarar projectId/contentIds y sólo los campos que cambian.

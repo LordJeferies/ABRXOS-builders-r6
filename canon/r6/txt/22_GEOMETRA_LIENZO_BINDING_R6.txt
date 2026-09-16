@@ -1,0 +1,32 @@
+ABRXOS R6 · BINDING GEOMETRA / LIENZO
+=====================================
+
+GEOMETRA
+- almacena fichas;
+- stage/workflow/schedule;
+- importa revisiones por ID estable;
+- crea Lienzos.
+
+LIENZO
+- muestra Story arriba;
+- Inspector contextual;
+- Timeline abajo;
+- copia/edita prompts y detalles;
+- guarda localmente;
+- exporta revisión HTML/JSON.
+
+T1–T9
+R6 no cambia las lanes.
+CINE se guarda T5 type=cine.
+Motion T4.
+Images T3.
+XR T2.
+SFX T7.
+Music T8.
+Caption Groups T9.
+
+ROUNDTRIP
+LIENZO actualizado → reimportar a Geometra → misma canonicalId.
+
+REGLA SOURCE
+Mover XR/Images/Motion no modifica sourceRanges.

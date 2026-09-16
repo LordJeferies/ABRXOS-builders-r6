@@ -1,0 +1,55 @@
+ABRXOS R6 · QA GATES
+====================
+
+SOURCE
+- speech trazable;
+- timestamps no inventados;
+- sourceRanges válidos y master correcto.
+
+XR
+- familia válida;
+- asset count exacto;
+- duración en rango o justificación;
+- no familia consecutiva sin razón;
+- función narrativa presente.
+
+ASSET
+- descripción, contexto, relación, prompt/reference, placement, timing, status.
+
+MOTION
+- target válido;
+- start/end;
+- preset;
+- instrucciones ejecutables.
+
+CINE
+- tipo válido;
+- no cuenta como XR;
+- SFX opcional;
+- Music direction coherente.
+
+SFX
+- libraryId válido;
+- trigger/purpose;
+- status real.
+
+MUSIC
+- función + automation.
+
+CAPTIONS
+- mismo partId;
+- target semántico 8–15;
+- displayCues internos;
+- COMIC_CC hidden sin borrado.
+
+WORKFLOW
+- stage válido;
+- workflowStatus válido;
+- schedule separado.
+
+FAIL CRÍTICO
+- timestamps fabricados;
+- IDs duplicados;
+- source mezclado;
+- end <= start;
+- Alfa declarada ready sin datos indispensables.

@@ -1,0 +1,52 @@
+ABRXOS R6 · MOTION CANON
+========================
+
+DEFINICIÓN
+Motion describe cómo cambia/presenta en el tiempo un visual que ya existe.
+
+NO ES
+- prompt de imagen;
+- XR;
+- transición narrativa CINE;
+- SFX.
+
+FASES
+motionIn / motionBody / motionOut.
+
+BODY
+STATIC
+ZOOM_IN
+ZOOM_OUT
+PAN_LEFT
+PAN_RIGHT
+PAN_UP
+PAN_DOWN
+ZOOM_IN_PAN
+ZOOM_OUT_PAN
+SLOW_DRIFT
+
+IN
+FADE_IN
+SLIDE_IN_LEFT
+SLIDE_IN_RIGHT
+BLUR_IN
+CUT_IN
+
+OUT
+FADE_OUT
+SLIDE_OUT_LEFT
+SLIDE_OUT_RIGHT
+BLUR_OUT
+CUT_OUT
+
+EVENTO DEBE DECIR
+motionId, preset, targetId, start, end, instrucciones; idealmente estado inicial/final, easing y sincronía.
+
+BUENO
+"A01 3.2 s, 100→112 %, x 0→-4 %, ease-in-out, mantener rostro y subtítulos fijos."
+
+MALO
+"hacer zoom cinematográfico".
+
+REGLA
+Motion no rescata un visual que no explica la idea. SFX vinculado es opcional.

@@ -1,0 +1,298 @@
+{
+  "schemaVersion": "abrxos.content-project.r6",
+  "projectId": "JOC55_AMANDA",
+  "title": "Example pre-alignment only",
+  "sources": {
+    "DEFAULT": {
+      "label": "Amanda episode 55"
+    }
+  },
+  "pieces": [
+    {
+      "id": "intro_alpha_05",
+      "canonicalId": "INTRO_ALPHA_05",
+      "projectId": "JOC55_AMANDA",
+      "type": "intro",
+      "title": "De información gratuita a propósito y oportunidad",
+      "thesis": "REPLACE_AFTER_TRANSCRIPT_ALIGNMENT",
+      "objective": "Construir tensión, pérdida, oportunidad y open loops de negocio sin revelar respuestas clave.",
+      "source": "DEFAULT",
+      "stage": "ALFA",
+      "workflowStatus": "PENDIENTE",
+      "schedule": {
+        "date": "",
+        "time": "",
+        "platforms": [],
+        "publishedAt": null
+      },
+      "editProfile": {
+        "code": "XR_FULL",
+        "commercialName": "Cinematic Edit"
+      },
+      "masterRole": "both",
+      "sourceRanges": [],
+      "planAlignment": {
+        "status": "needs_transcript_alignment",
+        "rule": "No sourceRanges are invented in this example. Attach timestamped transcript and run PROMPT_01."
+      },
+      "parts": [],
+      "storyScripts": {
+        "source": [],
+        "voA": []
+      },
+      "timeline": [],
+      "xrPlan": {
+        "requiredCount": 6,
+        "avoidSameFamilyConsecutive": true,
+        "preferDifferentFamiliesBeforeRepeat": true
+      },
+      "qa": {
+        "status": "needs_transcript_alignment",
+        "critical": [
+          "Resolve all SOURCE_SPEECH nodes against transcript before Cutter-ready."
+        ],
+        "warnings": []
+      },
+      "planNodes": [
+        {
+          "id": "D01",
+          "kind": "EDIT_DIRECTION",
+          "text": "Pantalla negra. Sin música.",
+          "instruction": "CINE01_BLACK_HOLD or opening black + Music MUTE",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P01",
+          "kind": "SOURCE_SPEECH",
+          "text": "Las personas piensan que por compartir la información...",
+          "instruction": "Resolve Amanda source range",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "D02",
+          "kind": "EDIT_DIRECTION",
+          "text": "Pausa. Corte a Amanda.",
+          "instruction": "CUT / A-roll decision",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P02",
+          "kind": "SOURCE_SPEECH",
+          "text": "Pero es todo lo contrario.",
+          "instruction": "Resolve Amanda source range",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "D03",
+          "kind": "EDIT_DIRECTION",
+          "text": "Entra un pulso musical.",
+          "instruction": "Music FADE_IN/BASE",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P03",
+          "kind": "SOURCE_SPEECH",
+          "text": "La mayoría de la información que nosotros damos es completamente gratuita.",
+          "instruction": "Resolve Amanda source range",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "VO01",
+          "kind": "VO_ADDED",
+          "text": "¿Cómo pasó de buscar orientación para continuar su carrera a ayudar, junto a su equipo, a más de mil quinientos odontólogos?",
+          "instruction": "Narrator VO; no master source range",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P04",
+          "kind": "SOURCE_SPEECH",
+          "text": "Mi papá para mí era mi ídolo profesional.",
+          "instruction": "Resolve Amanda source range",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P05",
+          "kind": "SOURCE_SPEECH",
+          "text": "Y justamente un mes antes de yo graduarme de la universidad, mi papá fallece.",
+          "instruction": "Resolve Amanda source range; likely candidate CINE01 after line",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "D04",
+          "kind": "EDIT_DIRECTION",
+          "text": "La música cae.",
+          "instruction": "Music DUCK/FADE_OUT; CINE/SFX only if justified",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P06",
+          "kind": "SOURCE_SPEECH",
+          "text": "Y eso me hizo entrar como en un hueco que yo decía ahora yo no sé qué hacer.",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P07",
+          "kind": "SOURCE_SPEECH",
+          "text": "Y decidí básicamente irme a Estados Unidos.",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P08",
+          "kind": "SOURCE_SPEECH",
+          "text": "Pero cuando empiezo a averiguar toda la información del tema de la reválida...",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P09",
+          "kind": "SOURCE_SPEECH",
+          "text": "Había gente que no te quería compartir información",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "D05",
+          "kind": "EDIT_DIRECTION",
+          "text": "Regresa el pulso.",
+          "instruction": "Music RESUME",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P10",
+          "kind": "SOURCE_SPEECH",
+          "text": "querían infundir miedo, decir es súper difícil, es imposible, no lo vas a poder hacer",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P11",
+          "kind": "SOURCE_SPEECH",
+          "text": "me sobresaltaré completamente.",
+          "instruction": "Resolve literal transcript match; spelling/text must follow transcript",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "VO02",
+          "kind": "VO_ADDED",
+          "text": "¿Cómo terminó convirtiendo esa misma dificultad en una oportunidad que no había imaginado?",
+          "instruction": "Narrator VO",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P12",
+          "kind": "SOURCE_SPEECH",
+          "text": "Las dificultades por las que pasas en la vida tienes dos opciones como todo.",
+          "instruction": "Source hint: clip 15; determine source group/master",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P13",
+          "kind": "SOURCE_SPEECH",
+          "text": "O le encuentras la oportunidad y le encuentras el aprendizaje o... te quedas estancado",
+          "instruction": "Source hint: clip 15",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P14",
+          "kind": "SOURCE_SPEECH",
+          "text": "había muchísimas personas que me seguían...",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P15",
+          "kind": "SOURCE_SPEECH",
+          "text": "Entonces dije, aquí hay una oportunidad de mercado interesante.",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P16",
+          "kind": "SOURCE_SPEECH",
+          "text": "No sé todavía cómo lo voy a monetizar...",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P17",
+          "kind": "SOURCE_SPEECH",
+          "text": "¿Por qué yo me estoy diciendo que yo no puedo lograr esto si sí yo lo puedo lograr?",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P18",
+          "kind": "SOURCE_SPEECH",
+          "text": "¿Por qué no lo empiezo a compartir?",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P19",
+          "kind": "SOURCE_SPEECH",
+          "text": "¿Cómo llegaste ahora a los mil quinientos?",
+          "instruction": "Speaker JOC; resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "O01",
+          "kind": "OPEN_LOOP",
+          "text": "Corte antes de la respuesta.",
+          "instruction": "Do not reveal response",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P20",
+          "kind": "SOURCE_SPEECH",
+          "text": "Nunca hemos tenido levantamiento de capital y hasta el momento no lo hemos necesitado.",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P21",
+          "kind": "SOURCE_SPEECH",
+          "text": "Es un negocio, pero tiene un propósito.",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P22",
+          "kind": "SOURCE_SPEECH",
+          "text": "¿Cómo funciona el modelo de negocio?",
+          "instruction": "Speaker JOC; resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P23",
+          "kind": "SOURCE_SPEECH",
+          "text": "nos dimos cuenta que realmente lo que más le importa a la persona o a nuestro cliente es...",
+          "instruction": "Resolve source",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "O02",
+          "kind": "OPEN_LOOP",
+          "text": "Negro antes de completar la frase.",
+          "instruction": "CINE01 candidate; preserve open loop",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "T01",
+          "kind": "TITLE_CARD",
+          "text": "JOC LÓPEZ PODCAST / AMANDA VICARI",
+          "instruction": "Likely TYPO/title card",
+          "timingStatus": "unresolved"
+        },
+        {
+          "id": "P24",
+          "kind": "SOURCE_SPEECH",
+          "text": "The only way out is through. No hay nadie que haga las cosas por ti. Tú lo tienes que hacer.",
+          "instruction": "Resolve final Amanda quote",
+          "timingStatus": "unresolved"
+        }
+      ]
+    }
+  ]
+}

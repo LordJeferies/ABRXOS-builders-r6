@@ -1,0 +1,44 @@
+ABRXOS R6 · CINE BEATS
+======================
+
+DEFINICIÓN
+Dirección narrativa de montaje. No cuenta como XR y no crea una pista nueva. Se guarda como T5 `track=broll`, `type=cine`; coordina Motion, SFX y Music existentes.
+
+CINE01_BLACK_HOLD
+Función: peso emocional, pérdida, shock, cambio de acto.
+- negro #000;
+- hold default 1.0 s;
+- recomendado 0.5–1.5 s;
+- entrada FADE_OUT o CUT;
+- salida FADE_IN o CUT;
+- SFX opcional LOW_BOOM / EMPHASIS;
+- Music DUCK→MUTE→RESUME cuando aplica;
+- captions ocultos durante negro.
+
+CINE02_FREEZE_HOLD
+Función: detener revelación/confesión/dato/beat.
+- freeze frame;
+- default 1.0 s;
+- recomendado 0.8–1.5 s;
+- desaturación 0–25 % opcional;
+- SLOW_DRIFT o STATIC;
+- SFX opcional LOW_BOOM / EMPHASIS;
+- Music DUCK;
+- salida habitual CUT.
+
+CINE03_PUNCH_CUT
+Función: avanzar con impacto tras giro/contraste/plot twist.
+- HARD CUT;
+- target hold 1.5–4 s;
+- target: new A-roll framing / B-roll / photo / XR / close-up;
+- SFX opcional IMPACT / CLICK_DEEP / WHOOSH;
+- short Music duck opcional.
+
+BUENO
+CINE responde a un cambio narrativo concreto y coordina imagen + sonido.
+
+MALO
+- black hold cada 20 s;
+- low boom automático en cada CINE;
+- freeze sin frase/revelación que detener;
+- punch cut que no cambia información/energía.

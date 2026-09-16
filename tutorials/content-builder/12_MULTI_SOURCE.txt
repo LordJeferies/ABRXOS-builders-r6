@@ -1,0 +1,8 @@
+CASO · MULTI SOURCE
+===================
+
+1. workflowMode=multi_source.
+2. Project Config debe declarar CH/AS/WB o sources reales.
+3. cada ficha debe llevar source exacto.
+4. no trasladar timestamps entre masters no alineados.
+5. Builder agrupa canon; IA genera fichas separadas por source.

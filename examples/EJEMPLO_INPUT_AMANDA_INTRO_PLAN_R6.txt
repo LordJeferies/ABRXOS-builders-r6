@@ -1,0 +1,114 @@
+PROJECT_ID: JOC55_AMANDA
+PIECE_ID: INTRO_ALPHA_05
+TYPE: intro
+TITLE: De información gratuita a propósito y oportunidad
+STAGE_REQUEST: ALFA
+EDIT_PROFILE: XR_FULL
+SOURCE_GROUP: DEFAULT
+ORIENTATIONS: vertical + horizontal
+
+EDITORIAL OBJECTIVE:
+Construir un intro con tensión, pérdida, oportunidad y open loops de negocio, preservando las preguntas del narrador y cortando antes de revelar respuestas clave.
+
+PLAN TEXT:
+
+[Pantalla negra. Sin música.]
+
+AMANDA:
+“Las personas piensan que por compartir la información estás dando la información gratuita y la persona ya no va a necesitar de tu ayuda…”
+
+[Pausa. Corte a Amanda.]
+
+“Pero es todo lo contrario.”
+
+[Entra un pulso musical.]
+
+“La mayoría de la información que nosotros damos es completamente gratuita.”
+
+NARRADOR — PREGUNTA 1:
+“¿Cómo pasó de buscar orientación para continuar su carrera a ayudar, junto a su equipo, a más de mil quinientos odontólogos?”
+
+AMANDA:
+“Mi papá para mí era mi ídolo profesional.”
+
+“Y justamente un mes antes de yo graduarme de la universidad, mi papá fallece.”
+
+[La música cae.]
+
+“Y eso me hizo entrar como en un hueco que yo decía ahora yo no sé qué hacer.”
+
+[Pausa breve.]
+
+“Y decidí básicamente irme a Estados Unidos.”
+
+“Pero cuando empiezo a averiguar toda la información del tema de la reválida…”
+
+“Había gente que no te quería compartir información”
+
+[Regresa el pulso.]
+
+“querían infundir miedo, decir es súper difícil, es imposible, no lo vas a poder hacer”
+
+“me sobresaltaré completamente.”
+
+[Silencio.]
+
+NARRADOR — PREGUNTA 2:
+“¿Cómo terminó convirtiendo esa misma dificultad en una oportunidad que no había imaginado?”
+
+AMANDA · FRAGMENTO CLIP 15:
+“Las dificultades por las que pasas en la vida tienes dos opciones como todo.”
+“O le encuentras la oportunidad y le encuentras el aprendizaje o... te quedas estancado”
+
+[La música recupera movimiento.]
+
+“había muchísimas personas que me seguían que estaban interesadas en hacer el mismo proceso, pero tenían el mismo sentimiento que yo tuve.”
+
+“Entonces dije, aquí hay una oportunidad de mercado interesante.”
+
+[Pausa breve.]
+
+“No sé todavía cómo lo voy a monetizar…”
+
+“¿Por qué yo me estoy diciendo que yo no puedo lograr esto si sí yo lo puedo lograr?”
+
+AMANDA:
+“¿Por qué no lo empiezo a compartir?”
+
+[Corte a otro momento. El ritmo aumenta.]
+
+JOC:
+“¿Cómo llegaste ahora a los mil quinientos?”
+
+[Corte antes de la respuesta.]
+
+AMANDA:
+“Nunca hemos tenido levantamiento de capital y hasta el momento no lo hemos necesitado.”
+
+[La música crece.]
+
+“Es un negocio, pero tiene un propósito.”
+
+[Corte seco al silencio.]
+
+JOC:
+“¿Cómo funciona el modelo de negocio?”
+
+[Corte a otro momento de Amanda, sin presentarlo como respuesta directa.]
+
+AMANDA:
+“nos dimos cuenta que realmente lo que más le importa a la persona o a nuestro cliente es…”
+
+[Negro antes de completar la frase.]
+
+JOC LÓPEZ PODCAST
+AMANDA VICARI
+
+[Sobre el título, su voz.]
+
+AMANDA:
+“The only way out is through.”
+“No hay nadie que haga las cosas por ti. Tú lo tienes que hacer.”
+
+TRANSCRIPT:
+ADJUNTAR la transcripción completa con timecodes del episodio y cualquier fuente adicional (por ejemplo clip 15 si no pertenece al mismo master).

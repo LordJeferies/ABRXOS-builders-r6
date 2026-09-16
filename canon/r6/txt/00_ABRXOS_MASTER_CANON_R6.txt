@@ -1,0 +1,41 @@
+ABRXOS · MASTER CANON R6
+========================
+
+R6 simplifica la gramática audiovisual manteniendo compatibilidad con el timeline T1–T9.
+
+PRINCIPIOS
+1. La historia/source truth manda.
+2. Una ficha = una pieza final.
+3. XR representa una intervención visual/narrativa compuesta.
+4. Images son assets concretos.
+5. Motion describe cómo se presenta/mueve un visual existente.
+6. CINE describe dirección narrativa de montaje; no cuenta como XR.
+7. SFX refuerza eventos, no rellena por obligación.
+8. Music tiene función + automatización.
+9. Captions se agrupan por unidades semánticas, no palabra por palabra en el timeline.
+10. NO_XR puede seguir teniendo edición de alto nivel.
+11. Source time y edit time son sistemas distintos.
+12. Los proyectos pueden usar Cinematic, Dynamic o Clean Edit.
+
+FAMILIAS XR R6
+- COMIC_INFO
+- COMIC_CC
+- TYPO
+- PHOTOS
+- OBJECTS
+- PHOTO_OBJECT
+- NO_XR
+
+CINE R6
+- CINE01_BLACK_HOLD
+- CINE02_FREEZE_HOLD
+- CINE03_PUNCH_CUT
+
+DENSIDAD XR FULL
+- intro: exactamente 6;
+- vertical: 2–4;
+- horizontal: aprox. 1 cada 120 s;
+- episodio completo: aprox. 1 cada 300 s.
+
+DIVERSIDAD
+No repetir misma familia consecutiva cuando haya alternativa igualmente buena. Narrative fit siempre gana sobre variedad artificial.

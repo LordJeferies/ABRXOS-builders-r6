@@ -1,0 +1,24 @@
+ABRXOS · PRIVADO VS PÚBLICO
+===========================
+
+RECOMENDACIÓN INICIAL
+Usar repo privado mientras existan nombres de clientes, ejemplos reales o referencias internas.
+
+NO SUBIR
+- transcripciones privadas;
+- masters;
+- datos de clientes;
+- outputs de campañas no públicas;
+- credenciales;
+- API keys;
+- exports locales;
+- PDF/licencias de terceros que no tengas derecho a redistribuir.
+
+SÍ SUBIR
+- código;
+- tests;
+- schemas;
+- canons escritos por el proyecto;
+- templates vacíos;
+- ejemplos sanitizados;
+- notas de referencia.

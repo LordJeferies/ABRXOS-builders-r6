@@ -1,0 +1,24 @@
+ABRXOS CONTENT BUILDER V1 · QA
+=============================
+
+GATES
+- 14 casos resuelven prompt correcto.
+- tipo/stage/perfil resuelve ficha correcta.
+- estáticos no reciben timeline audiovisual por error.
+- Dynamic/Clean usan 0 XR.
+- intro XR_FULL usa exact 6.
+- vertical XR_FULL usa 2–4.
+- horizontal/full episode usan densidad aproximada, no cuota rígida.
+- fixed plan sin timing → case 13.
+- export incluye canon snapshot + manifest hashes.
+- Brand Adapter y Project Config se conservan literalmente.
+- standalone HTML abre sin page errors.
+- Python/JS syntax PASS.
+
+REGRESIONES PROHIBIDAS
+- generar package con prompt/template inexistente;
+- transformar transcript;
+- mezclar CH/AS/WB;
+- perder currentFicha en update;
+- cambiar IDs en un update;
+- asumir Cutter-ready con timing unresolved.

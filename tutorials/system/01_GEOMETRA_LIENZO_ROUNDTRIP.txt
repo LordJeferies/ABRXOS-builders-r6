@@ -1,0 +1,12 @@
+TUTORIAL · GEOMETRA ↔ LIENZO
+===========================
+
+1. Importar ficha R6 en Geometra.
+2. Organizar Kanban/Calendar.
+3. Crear Lienzo con piezas seleccionadas.
+4. Producir/editar en Lienzo.
+5. Exportar nueva revisión HTML/JSON.
+6. Reimportar en Geometra.
+7. Mantener canonicalId.
+8. Si cambió sourceRanges, volver a Cutter.
+9. Si sólo cambió montaje visual/audio, Cutter no hace falta.

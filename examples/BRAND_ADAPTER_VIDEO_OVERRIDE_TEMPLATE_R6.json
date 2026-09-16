@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "abrxos.brand-video-override.r6",
+  "brandId": "BRAND_ID",
+  "projectId": "PROJECT_ID",
+  "scope": "project_or_specific_video",
+  "contentIds": [],
+  "override": {
+    "editProfile": null,
+    "platforms": [],
+    "xrDensity": null,
+    "preferredXrFamilies": [],
+    "avoidXrFamilies": [],
+    "musicIntensity": null,
+    "musicStyleOverride": null,
+    "captionPosition": null,
+    "captionStyleOverride": null,
+    "coverStyle": null,
+    "temporaryCampaignPalette": [],
+    "cinePreference": [],
+    "sfxIntensity": null,
+    "notes": []
+  },
+  "doNotOverride": [
+    "sourceTruth",
+    "literalSpeakerIdentity",
+    "claimsPolicy",
+    "brandForbiddenPhrases",
+    "legalRestrictions"
+  ]
+}

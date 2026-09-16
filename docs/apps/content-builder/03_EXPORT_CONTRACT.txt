@@ -1,0 +1,32 @@
+ABRXOS CONTENT BUILDER V1 · CONTRATO DE EXPORTACIÓN
+==================================================
+
+NOMBRE
+<REQUEST>_CONTENT_AI_PACKAGE_R6/
+
+ARCHIVOS
+00_START_HERE.txt
+01_QUE_SUBIR_A_CHATGPT.txt
+02_PROMPT_FINAL.txt
+03_REQUEST.json
+04_TRANSCRIPCION.txt
+05_PLAN_EDITORIAL.txt
+06_PROJECT_CONFIG.json
+07_BRAND_ADAPTER.json
+08_FICHA_TARGET.json
+09_CANON_CONTEXT.txt
+10_CURRENT_FICHA.json cuando aplica
+11_SPECIAL_RULES.txt
+CANON_LIBRARIES/*.json
+package_manifest.json
+
+SALIDA IA ESPERADA
+<CONTENT>_R6.json
+<CONTENT>_R6.txt
+
+REGLAS
+- JSON es importable a Geometra.
+- TXT es humano.
+- Si falta timing, QA debe reflejarlo.
+- Un update conserva canonicalId.
+- El Builder nunca rellena el contenido creativo que corresponde a la IA.

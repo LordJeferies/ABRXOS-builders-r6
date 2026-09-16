@@ -1,0 +1,24 @@
+ABRXOS · BRANCH / RELEASE POLICY
+===============================
+
+main
+Sólo estado verificado.
+
+feature/*
+Cambios de app/canon.
+
+RELEASE TAGS
+builders-v1.0.0-r6
+brand-builder-v1.0.0
+content-builder-v1.0.0
+
+CAMBIO CANÓNICO
+Debe tocar:
+1. JSON machine-readable.
+2. TXT humano.
+3. examples si aplica.
+4. tests/validator.
+5. changelog/migration si rompe compatibilidad.
+
+NO HACER
+Editar una librería dentro de Content Builder y olvidar `canon/r6/` o viceversa.

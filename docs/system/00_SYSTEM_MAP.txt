@@ -1,0 +1,72 @@
+ABRXOS R6 · MAPA CANÓNICO DEL SISTEMA
+=====================================
+
+OBJETIVO
+ABRXOS separa la estrategia, la generación asistida por IA, el estado editorial y la ejecución audiovisual en herramientas distintas. Ninguna herramienta debe fingir hacer el trabajo de otra.
+
+CADENA PRINCIPAL
+
+BRANDING METHOD + RAW BRAND INFO
+        ↓
+ABRXOS X · BRAND BUILDER
+        ↓
+AI BRAND PACKAGE
+        ↓
+IA EXTERNA
+        ↓
+BRAND STRATEGY + BRAND ADAPTER R6
+        ↓
+ABRXOS CONTENT BUILDER
+        + TRANSCRIPCIÓN / PLAN EDITORIAL / PROJECT CONFIG
+        ↓
+AI CONTENT PACKAGE
+        ↓
+IA EXTERNA
+        ↓
+FICHA BETA / ALFA R6
+        ↓
+GEOMETRA
+        ↓
+BIBLIOTECA + KANBAN + CALENDARIO
+        ↓
+LIENZO
+        ↓
+TIMELINE / PROMPTS / ASSETS / QA
+        ↓
+CUTTER (solo sourceRanges)
+        +
+CAPCUT / CANVA / PREMIERE / DAVINCI
+
+PUESTO DE CADA HERRAMIENTA
+
+1. ABRXOS X · Brand Builder
+   Upstream. Construye paquetes de información de marca. No crea contenido audiovisual ni ejecuta IA.
+
+2. ABRXOS Content Builder
+   Upstream editorial. Compila la petición de contenido y reúne el canon, templates y contexto correctos. No decide creativamente por sí mismo ni corta video.
+
+3. IA externa
+   Capa de razonamiento creativo/estructural. Interpreta la información, crea o evoluciona fichas y debe devolver JSON + TXT.
+
+4. Geometra
+   Biblioteca maestra y normalizador. Mantiene identidad estable, stage, workflow, schedule y compila Lienzos.
+
+5. Lienzo
+   Documento vivo de producción. Permite leer, inspeccionar, editar timing de montaje, assets, prompts, Motion, CINE, SFX, Music y Captions.
+
+6. Cutter
+   Ejecutor determinista de `sourceRanges` sobre los masters reales. No decide XR ni diseño.
+
+7. Editor final
+   CapCut/Canva/Premiere/DaVinci ejecutan visualmente la ficha.
+
+INVARIANTES
+- Una ficha = una pieza final.
+- `sourceRanges` = tiempo del master.
+- `timeline.start/end` = tiempo relativo del montaje.
+- IDs estables sobreviven revisiones.
+- La IA no inventa timestamps.
+- Brand Strategy y Brand Adapter son capas distintas.
+- XR no es Motion. Motion no es SFX. CINE no cuenta como XR.
+- Kanban y Calendar son estados operativos, no maturity stage.
+- BETA / ALFA / OMEGA describen madurez de la ficha.

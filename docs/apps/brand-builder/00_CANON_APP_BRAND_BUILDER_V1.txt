@@ -1,0 +1,61 @@
+ABRXOS X · BRAND BUILDER V1 · CANON DE PRODUCTO
+===============================================
+
+DEFINICIÓN
+Aplicación local Package Builder para convertir información de marca, notas libres, formularios, Branding Method y referencias en un paquete reproducible para una IA externa.
+
+PUESTO EN EL SISTEMA
+Es la herramienta más upstream. Su output alimenta la creación de Brand Strategy y Brand Adapter, que luego consume Content Builder.
+
+ENTRADAS
+- brandId / brandName;
+- rawContext libre;
+- brandForm estructurado;
+- Branding Method summary: 5 Drivers;
+- Branding Method detailed: 25 tools opcionales;
+- Brand Adapter draft;
+- archivos/referencias;
+- prompt compilado opcional.
+
+SALIDAS
+- carpeta AI Package;
+- ZIP del AI Package;
+- manifest con SHA256;
+- prompt final;
+- raw context;
+- Brand Form;
+- Branding Method Input;
+- Brand Adapter template;
+- Brand Draft;
+- registry del método;
+- source note;
+- references copiadas cuando existen.
+
+QUÉ HACE
+- conserva Raw Context;
+- permite formulario + texto libre simultáneamente;
+- mantiene Branding Method y Brand Adapter separados;
+- guarda marcas localmente;
+- calcula avance por bloques reales;
+- importa un Brand Adapter producido externamente;
+- exporta un paquete autocontenido;
+- funciona como HTML standalone con capacidades reducidas.
+
+QUÉ NO HACE
+- no llama a ChatGPT/API;
+- no decide el posicionamiento final por sí solo;
+- no investiga competencia en internet;
+- no valida legalmente naming/trademark;
+- no crea logos o imágenes;
+- no sustituye Brand Strategy por Brand Adapter;
+- no publica nada en GitHub;
+- no modifica Content Builder ni Geometra.
+
+FUENTE DE VERDAD LOCAL
+~/ABRXOS_BRAND_BUILDER_DATA/brands/*.json
+
+REFERENCIAS LOCALES
+~/ABRXOS_BRAND_BUILDER_DATA/references/<brand>/
+
+EXPORTS
+~/ABRXOS_BRAND_BUILDER_EXPORTS/

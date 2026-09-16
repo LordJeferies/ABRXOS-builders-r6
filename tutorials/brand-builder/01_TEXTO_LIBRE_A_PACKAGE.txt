@@ -1,0 +1,15 @@
+CASO · SÓLO TENGO UN TEXTO LARGO DE LA MARCA
+============================================
+
+1. Crear marca e indicar brandId/nombre.
+2. Ir a Raw Context.
+3. Pegar toda la descripción sin reorganizar.
+4. No borrar contradicciones: son información que la IA debe detectar.
+5. Opcional: añadir 2–5 datos al Brand Form.
+6. Dejar Method/Adapter incompletos si no los conoces.
+7. Adjuntar referencias visuales/documentos si existen.
+8. Build AI Package.
+9. Subir lo que dice 01_QUE_SUBIR_A_CHATGPT.txt.
+10. Pedir Strategy + Brand Adapter R6.
+11. Revisar campos marcados AI_INFERENCE / NEEDS_REVIEW.
+12. Importar Adapter aprobado a Brand Builder.

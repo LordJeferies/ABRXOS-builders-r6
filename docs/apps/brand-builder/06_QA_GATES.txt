@@ -1,0 +1,21 @@
+ABRXOS X · BRAND BUILDER V1 · QA
+===============================
+
+GATES MÍNIMOS
+- Python compila.
+- JavaScript sin error sintáctico.
+- /api/health responde.
+- save/load/list/delete de marca.
+- reference upload sanea filename y genera hash.
+- export genera carpeta + ZIP + manifest.
+- Raw Context se conserva literalmente.
+- Brand Strategy y Brand Adapter aparecen como outputs separados.
+- standalone HTML abre sin page errors.
+- installer encuentra Python 3 y no borra datos persistentes.
+
+REGRESIONES PROHIBIDAS
+- exportar package sin adapter template;
+- sobrescribir Raw Context al editar formulario;
+- considerar 100 % una marca sin bloques reales;
+- perder campos desconocidos del adapter importado;
+- introducir dependencia de IA remota.

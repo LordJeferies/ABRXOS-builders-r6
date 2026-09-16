@@ -1,0 +1,33 @@
+ABRXOS R6 · FLUJO DE DATOS Y FRONTERAS
+======================================
+
+RAW INPUT
+Información humana sin normalizar: transcripción, plan, notas de marca, decisiones, referencias.
+Debe conservarse literalmente cuando sea posible.
+
+STRUCTURED INPUT
+Project Config, Brand Adapter, Brand Strategy, request de contenido, ficha previa.
+Son estructuras que ayudan a la IA y a Geometra a trabajar de forma determinista.
+
+AI PACKAGE
+Carpeta reproducible generada por Brand Builder o Content Builder. Contiene prompt final, inputs, templates, canon pinneado y manifest con hashes. No contiene una respuesta IA todavía.
+
+AI OUTPUT
+JSON canónico + TXT legible. El JSON es la fuente estructurada para importar. El TXT es soporte humano.
+
+GEOMETRA DOCUMENT STATE
+Fichas, stages, workflow, schedule, timeline, prompts, assets, relaciones, sourceRanges y revisiones.
+
+LIENZO SESSION STATE
+Selección, playhead, zoom, scroll, tabs, paneles. No crea una revisión por sí mismo.
+
+CUTTER INPUT
+Sólo contratos de corte válidos: pieza, source/master, rangos exactos, orden editorial y orientación de salida.
+
+FRONTERAS
+- Brand Builder no hace análisis final de marca: prepara el package.
+- Content Builder no crea la ficha: prepara el package.
+- IA externa no debe inventar source truth.
+- Geometra no debe reescribir creativamente la ficha importada.
+- Lienzo puede editar montaje sin alterar silenciosamente sourceRanges.
+- Cutter no interpreta XR, CINE, Motion, SFX, Music o captions.
